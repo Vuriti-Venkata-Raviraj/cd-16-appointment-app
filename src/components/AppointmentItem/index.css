@@ -1,0 +1,40 @@
+/* Write your CSS here */
+
+.item {
+  list-style: none;
+  margin: 15px;
+  border: 2px solid #b5b7c4;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  color: #171f46;
+  font-size: 18px;
+}
+
+.star-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.star-img {
+  height: 20px;
+}
+
+.date-para {
+  color: #b5b7c4;
+  font-size: 15px;
+  padding-right: 15px;
+  font-weight: 500;
+}

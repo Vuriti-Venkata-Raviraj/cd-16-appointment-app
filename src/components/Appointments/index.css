@@ -1,0 +1,140 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+
+.container {
+  background-color: #ffffff;
+  width: 75%;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 50%;
+  border-radius: 10px;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-input-container {
+  display: flex;
+}
+
+.text-input {
+  width: 50%;
+}
+
+.heading {
+  color: #171f46;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #b5b7c4;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.title-input {
+  border: 1px solid #b5b7c4;
+  padding: 5px;
+  color: #171f46;
+  margin-bottom: 30px;
+  width: 60%;
+  font-weight: 500;
+}
+
+.date {
+  color: #b5b7c4;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.date-input {
+  border: 1px solid #b5b7c4;
+  padding: 5px;
+  color: #171f46;
+  margin-bottom: 30px;
+  width: 60%;
+  font-weight: 500;
+}
+
+.add-btn {
+  height: 35px;
+  width: 85px;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #8b5cf6;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+
+.img-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.img {
+  height: 300px;
+}
+
+.appointment-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  border-width: 2px solid #b5b7c4;
+  height: 1px;
+}
+
+/* appointment-styling */
+
+.appointments {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.appointment-title {
+  color: #171f46;
+  font-size: 25px;
+}
+
+.starred {
+  height: 25px;
+  width: 100px;
+  border-radius: 15px;
+  color: #8b5cf6;
+  border: 2px solid #8b5cf6;
+  background-color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  outline: none;
+}
+
+.updated {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
